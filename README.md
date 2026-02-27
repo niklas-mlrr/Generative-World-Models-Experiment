@@ -20,19 +20,21 @@ Dieses Projekt demonstriert in einer kontrollierten **GridWorld** den Unterschie
    - `source .venv/bin/activate`
 3. Abhängigkeiten installieren:
    - `pip install numpy torch gymnasium matplotlib stable-baselines3`
+   oder
+   - `pip3 install numpy torch gymnasium matplotlib stable-baselines3`
 
 ## Ausführen
 
 Zentrales Startkommando:
 
 ```bash
-python reliability_paradox_toy.py
+python3 reliability_paradox_toy.py
 ```
 
 Nützliche Optionen (optional):
 
 ```bash
-python reliability_paradox_toy.py --ppo-steps 1000000 --eval-episodes 20 --workdir artifacts/lean
+python3 reliability_paradox_toy.py --ppo-steps 1000000 --eval-episodes 20 --workdir artifacts/lean
 ```
 
 ## Ergebnis
