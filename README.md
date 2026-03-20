@@ -23,7 +23,7 @@ Dieses Projekt demonstriert in einer kontrollierten **GridWorld** den Unterschie
    oder
    - `pip3 install numpy torch gymnasium matplotlib stable-baselines3`
 
-## Ausführen
+## Ausführung
 
 Zentrales Startkommando:
 
